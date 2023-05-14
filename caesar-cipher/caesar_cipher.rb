@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class CaesarCipher
-  def self.caesar_cipher(str, shift)
+  def caesar_cipher(str, shift)
     alphabet = ('a'..'z').to_a # create an array of all lowercase letters
     new_str = '' # create an empty string to store the encrypted message
 
@@ -18,6 +18,4 @@ class CaesarCipher
 
     new_str
   end
-
-  print caesar_cipher('I love you!', 1)
 end
