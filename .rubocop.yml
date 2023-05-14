@@ -1,0 +1,91 @@
+require:
+  - rubocop
+AllCops:
+  TargetRubyVersion: 3.1.2
+  NewCops: enable
+  SuggestExtensions: false
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Exclude:
+
+Metrics/ClassLength:
+  Exclude:
+
+Metrics/MethodLength:
+  Exclude:
+
+  Max: 22
+
+Metrics/BlockLength:
+  Exclude:
+
+Metrics/CyclomaticComplexity:
+  Exclude:
+
+Metrics/PerceivedComplexity:
+  Exclude:
+
+Metrics/ParameterLists:
+  Max: 7
+  MaxOptionalParameters: 5
+
+Naming/AccessorMethodName:
+  Exclude:
+
+Naming/VariableNumber:
+  Exclude:
+
+Layout/LineLength:
+  Exclude:
+
+Security/JSONLoad:
+  Enabled: false
+
+Naming/RescuedExceptionsVariableName:
+  PreferredName: error
+
+Lint/NonDeterministicRequireOrder:
+  Enabled: false
+
+Layout/LeadingCommentSpace:
+  Enabled: false
+
+Style/GlobalVars:
+  AllowedVariables:
+    - $flow
+
+Style/MixinUsage:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Exclude:
+
+Lint/ShadowingOuterLocalVariable:
+  Exclude:
+
+Metrics/ModuleLength:
+  Exclude:
+
+Lint/Debugger:
+  Exclude:
+
+Lint/ConstantDefinitionInBlock:
+  Exclude:
+
+Lint/EmptyFile:
+  Exclude:
+
+Lint/DuplicateBranch:
+  Enabled: false
+
+Lint/OrAssignmentToConstant:
+  Exclude:
+
+Style/MutableConstant:
+  Exclude:
+
+Lint/EmptyBlock:
+  Exclude:
