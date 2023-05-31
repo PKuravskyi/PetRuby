@@ -1,7 +1,7 @@
 require:
   - rubocop
 AllCops:
-  TargetRubyVersion: 3.1.2
+  TargetRubyVersion: 3.2.1
   NewCops: enable
   SuggestExtensions: false
 

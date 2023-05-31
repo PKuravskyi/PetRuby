@@ -1,12 +1,9 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+ruby '3.2.1'
 
-# Specify your gem's dependencies in calc.gemspec
-gemspec
+source 'https://rubygems.org'
 
-gem "rake", "~> 13.0"
 
-gem "rspec", "~> 3.0"
-
-gem "rubocop", "~> 1.21"
+gem 'rake', '~> 13.0'
+gem 'rubocop', '~> 1.21'
